@@ -9,3 +9,5 @@ router.route("/address/client/:clientid").get(getAllAddressesByClient);
 router.route("/address/:addressid").delete(addressDelete);
 
 module.exports = router;
+
+// hello
